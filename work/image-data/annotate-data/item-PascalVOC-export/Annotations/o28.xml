@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>o28.jpg</filename>
+    <path>item-PascalVOC-export/Annotations/o28.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>o</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>400.4962095106823</xmin>
+        <ymin>126.25919117647058</ymin>
+        <xmax>712.7773949000689</xmax>
+        <ymax>476.5533088235294</ymax>
+    </bndbox>
+</object>
+</annotation>

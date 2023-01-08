@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>i47.jpg</filename>
+    <path>item-PascalVOC-export/Annotations/i47.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>i</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>624.5623707787732</xmin>
+        <ymin>273.61213235294116</ymin>
+        <xmax>833.631977946244</xmax>
+        <ymax>557.7297794117646</ymax>
+    </bndbox>
+</object>
+</annotation>

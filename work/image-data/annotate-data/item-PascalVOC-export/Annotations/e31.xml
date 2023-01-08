@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>e31.jpg</filename>
+    <path>item-PascalVOC-export/Annotations/e31.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>e</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>400.4962095106823</xmin>
+        <ymin>105.08272058823529</ymin>
+        <xmax>744.5348035837353</xmax>
+        <ymax>515.376838235294</ymax>
+    </bndbox>
+</object>
+</annotation>

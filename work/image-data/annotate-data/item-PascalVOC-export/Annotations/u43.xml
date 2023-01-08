@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>u43.jpg</filename>
+    <path>item-PascalVOC-export/Annotations/u43.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>u</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>472.83252929014475</xmin>
+        <ymin>178.31801470588235</ymin>
+        <xmax>681.9021364576155</xmax>
+        <ymax>553.3180147058823</ymax>
+    </bndbox>
+</object>
+</annotation>

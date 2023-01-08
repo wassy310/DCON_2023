@@ -1,0 +1,648 @@
+{
+    "name": "item",
+    "securityToken": "item Token",
+    "sourceConnection": {
+        "name": "item_o",
+        "description": "DCON2023",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDg1Y2ZhNjc5YTNkYjYxNjk1NzU1NTM1YWQ5NjAyNjZhZTJiNzY1NWE0NDhkNmFhNTY0YzVmNzdhMDBjYWJhOWM5ZDVjNDNlNTU5MTY2MzM4OTRmYzlhNGU5NDNlMGMyOThhNjdhYzVlMjQzM2VmMzg1ZTBmZDI3ZjFjYTFjYzA5YzZhYjM1MjcxMzZhNjkxM2I5Njc4YzQ1NzkxNmEwMmM4ZTQ1MTkzOTMzYjliNDUyMmFkZTRjMzY0ZmIyMTczIiwiaXYiOiI5M2E2M2E0NTk3OWNjZmQ4NGJhOGM1ODljZTI2OTczNDNiNGRmYTgxNDdkMjYxNjEifQ=="
+        },
+        "id": "KQHDGl0e-"
+    },
+    "targetConnection": {
+        "name": "item_output",
+        "description": "DCON2023",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMjYzNmNhMjUwMmYzNTg4NTQwYjBmNGRkNGY4MWQ2MTg1ZGNlMGZjYzYzNjdkZDFkNTI0NTM4OTlkYTZmZjExZWM4MzcyYTIyZmFmOWY2NTZkNTdmYmUzYjkzNTI5YTE5MjRlZDEzOTRkOGJlNzRhMWU1ZTY3ZDgxNDY4NjQ4N2RjZmZjOTM0NGYzOTc5NjE0NjAyY2RkMGMwNDY1NWJhYmJjNWRmMzc4MjJkMjU2MmUxMzhhMDc2NDM0M2ZlN2FjIiwiaXYiOiI5MjRkNTFlZWIxZDVlODI3NDVlOTg1MThhZDBkYTQzYTQxNjdiMjY3ZDM2NmIwMWUifQ=="
+        },
+        "id": "T95IPQ6A4"
+    },
+    "description": "DCON2023",
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "o",
+            "color": "#800000"
+        }
+    ],
+    "id": "X8LGKfIeA",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYjYyNjE2OTc2MTRhMTVkMTc1MDFlNTRmZWExODA4YWFlODFkOGQ4Y2M2Y2ZiNjBiNmQ4YmU2OGVhY2EwNzllZGNlMDA2MGExOTIwODQ3OWU2ZGNhNjllYjUxNzU1NDg0ODM2MmM4YTQyZjU3NTFiODE2N2Y1MWFhYTcxNzI5OGI0YTFhMjgwZmQxY2I5NThjNDMyYzc0Nzc5OWI5MTk2YyIsIml2IjoiYmY2MGRlOTM2MzhhN2Q5MGI0ZDEwMDcyNWQ2YTI3OTM2OGE1YjAwNTZkN2JlOGIzIn0="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "508f45c01f0b1bb877516ee91f1a50af",
+    "assets": {
+        "ecebf1fe568c03ff25e41500b14e3802": {
+            "format": "jpg",
+            "id": "ecebf1fe568c03ff25e41500b14e3802",
+            "name": "o1.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o1.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3d158621ae1c722fc9632668b49b3766": {
+            "format": "jpg",
+            "id": "3d158621ae1c722fc9632668b49b3766",
+            "name": "o10.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o10.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f9f2a5f781ffb11241d3fa74ca978629": {
+            "format": "jpg",
+            "id": "f9f2a5f781ffb11241d3fa74ca978629",
+            "name": "o11.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o11.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "335475ba8b0dbcf9e6d23511cfaa2c34": {
+            "format": "jpg",
+            "id": "335475ba8b0dbcf9e6d23511cfaa2c34",
+            "name": "o12.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o12.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70ca09bf3ef83cd5e4fe444ed575e986": {
+            "format": "jpg",
+            "id": "70ca09bf3ef83cd5e4fe444ed575e986",
+            "name": "o13.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o13.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c61dc9409093290198d85a17db9c6b63": {
+            "format": "jpg",
+            "id": "c61dc9409093290198d85a17db9c6b63",
+            "name": "o14.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o14.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a79a32b203b01c0d1aee3d69135ac4c7": {
+            "format": "jpg",
+            "id": "a79a32b203b01c0d1aee3d69135ac4c7",
+            "name": "o15.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o15.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a7c67bd7bf9045d0e89e0eb420a75363": {
+            "format": "jpg",
+            "id": "a7c67bd7bf9045d0e89e0eb420a75363",
+            "name": "o16.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o16.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ad3ffae5c6d2bc1f764980ae6895fe5": {
+            "format": "jpg",
+            "id": "2ad3ffae5c6d2bc1f764980ae6895fe5",
+            "name": "o17.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o17.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "553ada8a3819882afec4b10385a18192": {
+            "format": "jpg",
+            "id": "553ada8a3819882afec4b10385a18192",
+            "name": "o18.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o18.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "105c16e3e8e2974fa0127db176f8f3e7": {
+            "format": "jpg",
+            "id": "105c16e3e8e2974fa0127db176f8f3e7",
+            "name": "o19.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o19.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "55d30d32cff0e5b40e56dbdc792a6909": {
+            "format": "jpg",
+            "id": "55d30d32cff0e5b40e56dbdc792a6909",
+            "name": "o2.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o2.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e873b3a96818485ac6287995237e5738": {
+            "format": "jpg",
+            "id": "e873b3a96818485ac6287995237e5738",
+            "name": "o20.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o20.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd8ca252b20c3eb704678f715cad2435": {
+            "format": "jpg",
+            "id": "dd8ca252b20c3eb704678f715cad2435",
+            "name": "o21.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o21.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f8ac0162822454a3bec4f9bb78d3dbf3": {
+            "format": "jpg",
+            "id": "f8ac0162822454a3bec4f9bb78d3dbf3",
+            "name": "o22.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o22.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "51a47b77b7ff6b9a2dd25ae69e4e6547": {
+            "format": "jpg",
+            "id": "51a47b77b7ff6b9a2dd25ae69e4e6547",
+            "name": "o23.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o23.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "065d2a7da3e58ea5e5547ef248338252": {
+            "format": "jpg",
+            "id": "065d2a7da3e58ea5e5547ef248338252",
+            "name": "o24.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o24.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70650527289aeab110b08b0790b803b9": {
+            "format": "jpg",
+            "id": "70650527289aeab110b08b0790b803b9",
+            "name": "o25.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o25.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "581ba02b5899e65284e40384234bfd39": {
+            "format": "jpg",
+            "id": "581ba02b5899e65284e40384234bfd39",
+            "name": "o26.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o26.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "092548a04fe68e9f0b971ab29069296d": {
+            "format": "jpg",
+            "id": "092548a04fe68e9f0b971ab29069296d",
+            "name": "o27.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o27.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0ded7d55d7d2ea6dd3125c4b264f86e6": {
+            "format": "jpg",
+            "id": "0ded7d55d7d2ea6dd3125c4b264f86e6",
+            "name": "o28.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o28.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "795b7206fb4abb4f29db7ed5510c8ad0": {
+            "format": "jpg",
+            "id": "795b7206fb4abb4f29db7ed5510c8ad0",
+            "name": "o29.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o29.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "eba90b8fff3e2dfa5e570b3d2416b402": {
+            "format": "jpg",
+            "id": "eba90b8fff3e2dfa5e570b3d2416b402",
+            "name": "o3.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o3.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "92aee1a26807aa172803d7956ed39988": {
+            "format": "jpg",
+            "id": "92aee1a26807aa172803d7956ed39988",
+            "name": "o30.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o30.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "211a8beca2c21c6ab0eae20d35a7373f": {
+            "format": "jpg",
+            "id": "211a8beca2c21c6ab0eae20d35a7373f",
+            "name": "o31.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o31.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ac735ab359764fae7e4164a21cffc2a6": {
+            "format": "jpg",
+            "id": "ac735ab359764fae7e4164a21cffc2a6",
+            "name": "o32.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o32.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bc1bde6c4f572042e03ecf8c4cf82da0": {
+            "format": "jpg",
+            "id": "bc1bde6c4f572042e03ecf8c4cf82da0",
+            "name": "o33.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o33.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5735ef0213a2b017cb02a1b6a188ebd3": {
+            "format": "jpg",
+            "id": "5735ef0213a2b017cb02a1b6a188ebd3",
+            "name": "o34.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o34.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8c80eb343d65f868d730971a16ef7888": {
+            "format": "jpg",
+            "id": "8c80eb343d65f868d730971a16ef7888",
+            "name": "o35.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o35.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9a196a35bd1c9b9f58becb8c5cd7a818": {
+            "format": "jpg",
+            "id": "9a196a35bd1c9b9f58becb8c5cd7a818",
+            "name": "o36.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o36.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bd59bab0f3fe515771fdb9f5c503719c": {
+            "format": "jpg",
+            "id": "bd59bab0f3fe515771fdb9f5c503719c",
+            "name": "o37.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o37.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70de827f059791e3211e49c3b6e881ab": {
+            "format": "jpg",
+            "id": "70de827f059791e3211e49c3b6e881ab",
+            "name": "o38.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o38.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "253c9f39a9bf107fce484813655a1fff": {
+            "format": "jpg",
+            "id": "253c9f39a9bf107fce484813655a1fff",
+            "name": "o39.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o39.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a244a1d5f11d4a208bef3b178cb82f5d": {
+            "format": "jpg",
+            "id": "a244a1d5f11d4a208bef3b178cb82f5d",
+            "name": "o4.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o4.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "78717b4c4c1b895146dd2054262c0e6b": {
+            "format": "jpg",
+            "id": "78717b4c4c1b895146dd2054262c0e6b",
+            "name": "o40.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o40.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "237b4b6745d7736e5125d58a45c611bf": {
+            "format": "jpg",
+            "id": "237b4b6745d7736e5125d58a45c611bf",
+            "name": "o41.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o41.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7512f797b0e51fd9719990608727ce6f": {
+            "format": "jpg",
+            "id": "7512f797b0e51fd9719990608727ce6f",
+            "name": "o42.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o42.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "da867507de44514ca081ba2975e4bdd9": {
+            "format": "jpg",
+            "id": "da867507de44514ca081ba2975e4bdd9",
+            "name": "o43.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o43.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "25df2fb8d402c9707d795e0c65371680": {
+            "format": "jpg",
+            "id": "25df2fb8d402c9707d795e0c65371680",
+            "name": "o44.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o44.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ac35dfca12d6fe38d8644cb310de78f": {
+            "format": "jpg",
+            "id": "1ac35dfca12d6fe38d8644cb310de78f",
+            "name": "o45.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o45.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "742d5357395ba1c7a59c511ce7720e80": {
+            "format": "jpg",
+            "id": "742d5357395ba1c7a59c511ce7720e80",
+            "name": "o46.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o46.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "67828311769998ae52f70014182b6c0e": {
+            "format": "jpg",
+            "id": "67828311769998ae52f70014182b6c0e",
+            "name": "o47.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o47.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c3fae3625b7f2a0483e3223f16bcec27": {
+            "format": "jpg",
+            "id": "c3fae3625b7f2a0483e3223f16bcec27",
+            "name": "o48.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o48.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "950f97f1b5d2f6431f51aad9e9460b2d": {
+            "format": "jpg",
+            "id": "950f97f1b5d2f6431f51aad9e9460b2d",
+            "name": "o49.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o49.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c987e2d581fb9d84b058b47488b4f816": {
+            "format": "jpg",
+            "id": "c987e2d581fb9d84b058b47488b4f816",
+            "name": "o5.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o5.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "17520faa240cead57e8a94f378c6c9b3": {
+            "format": "jpg",
+            "id": "17520faa240cead57e8a94f378c6c9b3",
+            "name": "o50.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o50.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c840c11134397a19ceab906a098d5689": {
+            "format": "jpg",
+            "id": "c840c11134397a19ceab906a098d5689",
+            "name": "o6.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o6.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "67b9270b535a843f4ace3bfa2850f2fa": {
+            "format": "jpg",
+            "id": "67b9270b535a843f4ace3bfa2850f2fa",
+            "name": "o7.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o7.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2878771c04526dabf2f298edbeb522f9": {
+            "format": "jpg",
+            "id": "2878771c04526dabf2f298edbeb522f9",
+            "name": "o8.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o8.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        },
+        "508f45c01f0b1bb877516ee91f1a50af": {
+            "format": "jpg",
+            "id": "508f45c01f0b1bb877516ee91f1a50af",
+            "name": "o9.jpg",
+            "path": "file:C:/Users/wassy/research/DCON/DCON2023/work/data/original-data/o/o9.jpg",
+            "size": {
+                "width": 1280,
+                "height": 720
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
