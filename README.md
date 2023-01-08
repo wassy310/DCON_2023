@@ -40,19 +40,26 @@ Included with TensorFlow is a dashboard tool called TensorBoard. TensorBoard can
 ## **Directory**
 ```
 .
-├── work
+├── datasets (ignored) --------- Dataset used for training
+|   ├── images
+|   |   ├── train -------------- Image data for learning
+|   |   └── val ---------------- Image data for inference
+|   ├── labels
+|   |   ├── train -------------- Text data for learning
+|   |   └── val ---------------- Text data for inference
+|   └── data.yaml -------------- File with path and data information needed for training
+├── work ----------------------- Directory used to organize and develop image data
 |   ├── AndroidCameraApp ------- Android camera application (under dev.)
 |   |   └── .
+|   ├── image-data (ignored)
+|   |   └── .
+|   ├── labels (ignored)
+|   └── .
 |   ├── utils ------------------ Utils to vott2yolo_cv.py
 |   |   └── .
 |   ├── main.ipynb ------------- Scripts to run deep-learning
 |   └── vott2yolo_cv.py -------- Script to convert annotation info output from VoTT for YOLOv5 training
-├── yolov5 --------------------- Cloned from `github.com/ultralytics/yolov5`
-|   ├── coco128(ignore) -------- Replace contents with proprietary data (from `github.com/ultralytics/yolov5/releases`, v1.0/coco128.zip)
-|   |   ├── images ------------- Original image data (.jpg)
-|   |   |   └── .
-|   |   └── labels ------------- A group of text files showing annotation data tied to image data (.txt)
-|   |       └── .
+├── yolov5 (ignored) --------------------- Cloned from `github.com/ultralytics/yolov5`
 |   └── .
 ├── .gitignore ----------------- This file is used to exclude unnecessary files when committing
 ├── LICENSE -------------------- Apache License v2.0
