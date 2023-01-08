@@ -63,6 +63,7 @@ Executable File  256 lines (207 sloc)  3.89 KB
 *.cfg
 !setup.cfg
 !cfg/yolov3*.cfg
+*.vott
 
 storage.googleapis.com
 runs/*
@@ -75,6 +76,7 @@ data/images/*
 !data/images/zidane.jpg
 !data/images/bus.jpg
 !data/*.sh
+image-data/*
 
 labels/
 
