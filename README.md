@@ -51,10 +51,7 @@ Included with TensorFlow is a dashboard tool called TensorBoard. TensorBoard can
 ├── work ----------------------- Directory used to organize and develop image data
 |   ├── AndroidCameraApp ------- Android camera application (under dev.)
 |   |   └── .
-|   ├── image-data (ignored)
-|   |   └── .
-|   ├── labels (ignored)
-|   └── .
+|   └── . (ignored other files (image data, etc.))
 |   ├── utils ------------------ Utils to vott2yolo_cv.py
 |   |   └── .
 |   ├── main.ipynb ------------- Scripts to run deep-learning
