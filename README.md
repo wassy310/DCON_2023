@@ -1,3 +1,5 @@
+[日本語版 README.md](https://github.com/wassy310/DCON_2023/blob/master/README-ja.md)
+
 # **DCON2023**
 
 ## **DCON - National College of Technology Deep Learning Contest**
@@ -10,10 +12,10 @@ Communication applications for the hearing and speech impaired
 
 ### **Overview**
 This is a sign language and spoken language interchange application.  
-Implemented on a smartphone(Android/iOS) or smart glasses(Nreallight).  
+Implemented on a smartphone(Android/iOS) or smart glasses(NrealLight).  
 The following mechanism is used to perform mutual conversion between sign language and spoken language.
 ![structure](https://user-images.githubusercontent.com/74349349/210689422-ecffe937-5d6f-46f9-b4f6-2e5f832b962f.png)
-At this time, we are up to the implementation of a simple camera application for Android, but have not yet developed applications for iOS devices and smart glasses. They will be released in the future.
+At this time, we are up to the implementation of a simple camera application for Android, and applications for iOS devices and smart glasses are still under development. We plan to release them sequentially in the future.
 
 ## **Main software and web services used**
 ### **VoTT**
@@ -24,7 +26,7 @@ At this time, we are up to the implementation of a simple camera application for
 - You can access it from [here](https://colab.research.google.com/).
 ### **YOLOv5**
 - YOLOv5 is a model for object detection and is a very fast processing algorithm.
-- The folder "yolov5" is it. I cloned it from [here](https://github.com/ultralytics/yolov5).
+- I cloned it from [here](https://github.com/ultralytics/yolov5).
 ### **TensorBoard**
 Included with TensorFlow is a dashboard tool called TensorBoard. TensorBoard can visualize data flow graphs, training history (e.g., changes in loss function), or display images and sounds generated in the process.
 
@@ -49,7 +51,7 @@ Included with TensorFlow is a dashboard tool called TensorBoard. TensorBoard can
 |   |   └── val ---------------- Text data for inference
 |   └── data.yaml -------------- File with path and data information needed for training
 ├── work_2nd_screening --------- Directory used to organize and develop image data
-|   ├── AndroidCameraApp ------- Android camera application (under d
+|   ├── AndroidCameraApp ------- Android camera application (under dev.)
 |   |   └── .
 |   └── . (ignored other files (image data, etc.))
 |   ├── utils ------------------ Utils to vott2yolo_cv.py
@@ -91,7 +93,7 @@ Included with TensorFlow is a dashboard tool called TensorBoard. TensorBoard can
 - [ultralytics, Esq.](https://github.com/ultralytics)
 ### **Provide conversion scripts for VoTT-YOLOv5 learning**
 - [toritamantaro, Esq.](https://github.com/toritamantaro)
-### **Information Provider**
+### **On-site information provider**
 - [Nonprofit organization Ubuntu](http://ubuntu.moon.bindcloud.jp/)
 - [Gunma University, School of Common Education](https://www.gunma-u.ac.jp/faculty/facu001/g1813)
 - [Gunma Prefectural Tatebayashi Special Support School](https://tatetoku-ses.gsn.ed.jp/)
