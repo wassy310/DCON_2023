@@ -87,11 +87,6 @@ Included with TensorFlow is a dashboard tool called TensorBoard. TensorBoard can
 > - **Enterprise License**: Provides greater flexibility for commercial product development without the open-source requirements of GPL-3.0. Typical use cases are embedding Ultralytics software and AI models in commercial products and applications. Request an Enterprise License at [Ultralytics Licensing](https://ultralytics.com/license).
 
 ## **Thanks**
-### **Holding of DCON**
-- DCON Executive Committee
-- DCON Jury members, Mentors, Advisors
-- National Association of Colleges of Technology
-- National Institution of National Colleges of Technology
 ### **Provider of yolov5**
 - [ultralytics, Esq.](https://github.com/ultralytics)
 ### **Provide conversion scripts for VoTT-YOLOv5 learning**
