@@ -49,25 +49,19 @@ Included with TensorFlow is a dashboard tool called TensorBoard. TensorBoard can
 |   |   └── val ---------------- Text data for inference
 |   └── data.yaml -------------- File with path and data information needed for training
 ├── work ----------------------- Directory used to organize and develop image data
-|   ├── AndroidCameraApp ------- Android camera application (under dev.)
+|   ├── AndroidCameraApp ------- Android camera application (under d
 |   |   └── .
 |   └── . (ignored other files (image data, etc.))
 |   ├── utils ------------------ Utils to vott2yolo_cv.py
 |   |   └── .
 |   ├── main.ipynb ------------- Scripts to run deep-learning
 |   └── vott2yolo_cv.py -------- Script to convert annotation info output from VoTT for YOLOv5 training
-├── yolov5 (ignored) --------------------- Cloned from `github.com/ultralytics/yolov5`
+├── yolov5 (ignored) ----------- Cloned from `github.com/ultralytics/yolov5`
 |   └── .
 ├── .gitignore ----------------- This file is used to exclude unnecessary files when committing
 ├── LICENSE -------------------- Apache License v2.0
 └── README.md ------------------ This file contains a description of this repository
 ```
-
-## **License**
-[Apache License](https://www.apache.org/licenses/LICENSE-2.0)
-> ※ YOLOv5 is available under two different licenses:
-> - **GPL-3.0 License**: See [LICENSE](https://github.com/ultralytics/yolov5/blob/master/LICENSE) file for details.
-> - **Enterprise License**: Provides greater flexibility for commercial product development without the open-source requirements of GPL-3.0. Typical use cases are embedding Ultralytics software and AI models in commercial products and applications. Request an Enterprise License at [Ultralytics Licensing](https://ultralytics.com/license).
 
 ## **Development environment**
 |         |             My PC(Local)           | Google Colaboratory |
@@ -85,6 +79,12 @@ Included with TensorFlow is a dashboard tool called TensorBoard. TensorBoard can
 | SoC         | Qualcomm SnapdragonTM 845    | Qualcomm Snapdragon 630 |
 | CPU         | Qualcomm Kryo 385            | ARM Cortex-A53          |
 | GPU         | Qualcomm Adreno 630          | Qualcomm Adreno 508     |
+
+## **License**
+[Apache License](https://www.apache.org/licenses/LICENSE-2.0)
+> ※ YOLOv5 is available under two different licenses:
+> - **GPL-3.0 License**: See [LICENSE](https://github.com/ultralytics/yolov5/blob/master/LICENSE) file for details.
+> - **Enterprise License**: Provides greater flexibility for commercial product development without the open-source requirements of GPL-3.0. Typical use cases are embedding Ultralytics software and AI models in commercial products and applications. Request an Enterprise License at [Ultralytics Licensing](https://ultralytics.com/license).
 
 ## **Thanks**
 ### **Holding of DCON**
