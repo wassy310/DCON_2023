@@ -50,7 +50,7 @@ Included with TensorFlow is a dashboard tool called TensorBoard. TensorBoard can
 |   |   ├── train -------------- Text data for learning
 |   |   └── val ---------------- Text data for inference
 |   └── data.yaml -------------- File with path and data information needed for training
-├── work_2nd_screening --------- Directory used to organize and develop image data
+├── work ----------------------- Directory used to organize and develop image data
 |   ├── AndroidCameraApp ------- Android camera application (under dev.)
 |   |   └── .
 |   └── . (ignored other files (image data, etc.))
